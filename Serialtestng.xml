@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="paytm">
+    <classes>
+      <class name="TestNGstudy.Parallel2"/>
+      </classes>
+  </test>
+  
+      <test thread-count="5" name="phonepe">
+    <classes>
+     <class name="TestNGstudy.Parallel1"/>
+      </classes>
+      </test>
+      
+      <test thread-count="5" name="Googlepe">
+    <classes>
+      <class name="TestNGstudy.Parallel3"/>
+      </classes>
+      
+   
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
